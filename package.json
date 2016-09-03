@@ -1,0 +1,34 @@
+{
+  "name": "akh.writer",
+  "version": "0.0.0",
+  "description": "Akh writer monad and monad transformer",
+  "author": "Matt Bierner",
+  "license": "MIT",
+  "keywords": [
+    "monad transformer",
+    "monad",
+    "akh",
+    "writer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattbierner/akh-writer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattbierner/akh-writer/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "akh.core.spec": "0.x",
+    "akh.identity": "^0.1.0"
+  },
+  "devDependencies": {
+    "akh.list": "0.0.1",
+    "akh.state": "^0.0.0",
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha ./tests"
+  }
+}
