@@ -30,15 +30,6 @@ require('akh').WriterT
 #### `Writer.run(m, w)`, `m.run(w)`
 Perform a writer computation `m`  without output monoid `w` and return { value, output}
 
-```js
-const List = require('akh.list').List
-
-Writer.run(
-    Writer.asks(r => r.a).map(x => x * 2),
-    List.zero
-) === 20
-```
-
 #### `WriterT.run(t, w)`, `t.run(w)`
 Same as `Writer.run` but for a monad transformer. Returns an `Writer` value inside of the inner monad.
 
