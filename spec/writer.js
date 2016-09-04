@@ -17,7 +17,7 @@ const WriterMonad = (Instance, spec) => {
     Instance.prototype.listen = spec.listen
 
     /**
-     * Append a set of values to the environment
+     * Append to the output.
      */
     Instance.tell = spec.tell
 
