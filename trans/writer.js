@@ -49,7 +49,7 @@ const WriterT = m => {
         listen: function (f) {
             return new Instance(w =>
                 runWriterT(this, w).chain(r =>
-                    m.of(Pair(x.value, f(r.output), r.output))))
+                    m.of(Pair(r.value, f(r.output), r.output))))
         },
 
         pass: function () {
