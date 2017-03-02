@@ -1,6 +1,6 @@
 {
   "name": "akh.writer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Akh writer monad and monad transformer",
   "author": "Matt Bierner",
   "license": "MIT",
